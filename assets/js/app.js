@@ -2,9 +2,10 @@
 
     "use strict";
 
-    /**
-     * Easy selector helper function
-     */
+    /* *********************************************************
+        Easy selector function
+    ********************************************************* */
+
     const select = (el, all = false) => {
         el = el.trim()
         if (all) {
@@ -14,7 +15,9 @@
         }
     }
 
-    //===== Prealoder
+    /* *********************************************************
+        Preloader
+    ********************************************************* */
 
     $(window).on('load', function (event) {
         $('.preloader').delay(500).fadeOut(500);
@@ -32,5 +35,13 @@
             backDelay: 2000
         });
     }
+
+    /* *********************************************************
+        Close navbar on click
+    ********************************************************* */
+
+    $(document).on('click', function () {
+        $('.collapse').collapse('hide');
+    })
 
 }(jQuery))
