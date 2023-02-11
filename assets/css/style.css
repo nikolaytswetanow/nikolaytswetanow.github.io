@@ -559,6 +559,8 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    box-shadow: 0 20px 20px -20px #333;
 }
 
 #home:before {
@@ -631,7 +633,7 @@ a {
 #aboutme {
     padding: 60px 0px;
     background: var(--blue-primary);
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: 0 20px 20px -20px #333;
     scroll-margin-top: 3rem;
 }
 
