@@ -1,0 +1,41 @@
+#contactme {
+    padding: 60px 0 60px 0;
+}
+
+.container form .contactform {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-box-first {
+    padding-bottom: 35px;
+}
+
+.input-box-first input,
+.input-box-first textarea {
+    width: 300px;
+}
+
+.input-box-second {
+    padding-bottom: 35px;
+}
+
+.input-box-second input,
+.input-box-second textarea {
+    width: 300px;
+}
+
+.input-box-message {
+    padding-bottom: 35px;
+}
+
+.input-box-message input,
+.input-box-message textarea {
+    width: 300px;
+}
+
+.phone {
+    padding: 15px 0 15px 0;
+}
