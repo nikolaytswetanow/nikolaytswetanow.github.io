@@ -22,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+.container {
+    overflow: hidden;
+}
+
 /* *********************************************************
   Navbar
 ********************************************************* */
@@ -986,10 +990,14 @@ a {
 /* *********************************************************
   Media
 ********************************************************* */
+@media (min-width: 992px) {
+    #home {
+        padding-left: 160px;
+    }
+}
 
 @media (max-width: 992px) {
     #home {
-        padding-left: 160px;
         text-align: center;
     }
 
@@ -1006,6 +1014,7 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+
     #aboutme {
         scroll-margin-top: 15rem;
     }
